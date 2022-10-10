@@ -1,0 +1,80 @@
+.compozitie{
+    width: 650px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+
+}
+
+
+.car{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 35px;
+    z-index: 2;
+    right: 30px;
+}
+
+.road{
+    bottom: 0px;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.tree{
+    position: absolute;
+    bottom: 80px;
+    z-index: 3;
+}
+
+.cloud{
+    position: absolute;
+    z-index: 4;
+    right: 35px;
+    bottom: 299px;
+}
+
+.sun{
+    position: absolute;
+    z-index: 3;
+    width: 70px;
+    height: auto;
+    right: 190px;
+}
+
+.gopnik{
+    position: absolute;
+    z-index: 5;
+    width: 125px;
+    height: auto;
+    bottom: 60px;
+}
+
+.banzai{
+    position: absolute;
+    z-index: 6;
+    width: 60px;
+    height: auto;
+    bottom: 65px;
+    left: 110px;
+}
+
+.sunflower{
+    position: absolute;
+    z-index: 7;
+    width: 50px;
+    height: auto;
+    bottom: 25px;
+    left: 30px;
+}
+
+.speed-limit{
+    position: absolute;
+    z-index: 8;
+    width: 169px;
+    height: auto;
+    bottom: 70px;
+    left: 190px;
+}
